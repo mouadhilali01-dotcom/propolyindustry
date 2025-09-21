@@ -1,0 +1,34 @@
+
+/* PROPOLY CATALOGUE CUSTOM - start */
+:root{
+  --propoly-primary: #004080;
+  --propoly-primary-hover: #0066cc;
+}
+.btn-primary, .btn-primary:link, .btn-primary:visited {
+  background: var(--propoly-primary);
+  color: #ffffff;
+  padding: 12px 26px;
+  border-radius: 6px;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 600;
+  transition: background .18s ease, transform .08s ease;
+  border: none;
+}
+.btn-primary:hover, .btn-primary:focus {
+  background: var(--propoly-primary-hover);
+  color: #ffffff;
+  outline: none;
+  transform: translateY(-1px);
+}
+.catalogue-section {
+  background: var(--propoly-primary);
+  color: #ffffff;
+  padding: 80px 20px;
+  text-align: center;
+}
+.catalogue-section h1, .catalogue-section p { color: #ffffff; }
+@media (max-width:768px) {
+  .catalogue-section { padding: 40px 12px; }
+}
+/* PROPOLY CATALOGUE CUSTOM - end */
